@@ -1,6 +1,5 @@
 public class FailDiscoverTest {
     public static void main(String[] args) {
-        // TODO: подставлять номер карты нужно сюда между двойными кавычками, без пробелов
         String number = "6011527036812550811";
         System.out.printf("Result is %s%n", isValidCardNumber(number) ? "OK" : "FAIL");
     }

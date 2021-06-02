@@ -1,6 +1,5 @@
 public class FailVisaTest {
     public static void main(String[] args) {
-        // TODO: подставлять номер карты нужно сюда между двойными кавычками, без пробелов
         String number = "4716529675604038057";
         System.out.printf("Result is %s%n", isValidCardNumber(number) ? "OK" : "FAIL");
     }
